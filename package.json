@@ -1,12 +1,16 @@
 {
-  "name": "www.confrontjs.com",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Piotr Kowalski <piecioshka@gmail.com> (https://piecioshka.pl)",
-  "license": "MIT"
+    "private": true,
+    "name": "www.confrontjs.com",
+    "version": "1.0.0",
+    "description": "",
+    "license": "MIT",
+    "author": "Piotr Kowalski <piecioshka@gmail.com> (https://piecioshka.pl)",
+    "scripts": {
+        "deploy": "git push -f heroku master",
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "dotenv": "^8.0.0"
+    }
 }
