@@ -2,7 +2,7 @@
     "private": true,
     "name": "www.confrontjs.com",
     "version": "1.0.0",
-    "description": "",
+    "description": "Front-end conference in Warsaw",
     "license": "MIT",
     "author": "Piotr Kowalski <piecioshka@gmail.com> (https://piecioshka.pl)",
     "scripts": {
